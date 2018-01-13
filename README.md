@@ -1,3 +1,4 @@
+
 ## Spring Cloud Zuul Example
 This example project contains 3 application, a Zuul Gateway application, and 2 other applications behind the proxy.
 
@@ -7,5 +8,8 @@ This example project contains 3 application, a Zuul Gateway application, and 2 o
 
 
 ### Notes
-* Importing the Spring Cloud BOM is necessary, without it you get a ClassDefNotFoundError
-* Zuul adds quite a few headers
+- Importing the Spring Cloud BOM is necessary, without it you get a ClassDefNotFoundError
+- Zuul adds quite a few headers
+  - Host
+  - X-Forwarded-Host, X-Forwarded-Port, and many other X-Forwarded-\* Headers
+- It's probably worth investigating what headers are added when Spring Security is enabled
