@@ -1,4 +1,5 @@
 rootProject.name = 'zuul-example'
 include 'gateway'
 include 'bookstore'
+include 'library'
 
