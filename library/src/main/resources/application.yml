@@ -1,0 +1,3 @@
+server:
+  context-path: /library
+  port: 8180

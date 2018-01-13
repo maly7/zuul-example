@@ -1,0 +1,3 @@
+server:
+  context-path: /bookstore
+  port: 8280
