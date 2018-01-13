@@ -8,7 +8,3 @@ zuul:
       url: http://localhost:8180/library
     bookstore:
       url: http://localhost:8280/bookstore
-
-ribbon:
-  eureka:
-    enabled: false
