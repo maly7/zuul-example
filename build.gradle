@@ -1,6 +1,7 @@
 buildscript {
     ext {
         springBootVersion = '1.5.9.RELEASE'
+        springCloudNetflixVersion = '1.4.0.RELEASE'
     }
 
     repositories {
